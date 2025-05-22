@@ -37,12 +37,9 @@ while True:
         print('The product is: ', product_result)
     elif start_math_procedure == 'round':
         num = float(input('Enter a number >> '))
-        print('When rounding. Each negitive value represents a place \nSo -1 is tens, and etc. . .')
-        round_to = int(input('Enter a number >> '))
-        print(round(num, round_to))
+        print(round(num, -1))
     elif start_math_procedure == 'exit':
         print('Exiting program. . .')
         break
     else:
         print('Please enter a vaild operation')
-        
